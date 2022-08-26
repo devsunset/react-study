@@ -7,6 +7,14 @@
   pointer-events: none;
 }
 
+.react {
+  background : aqua;
+  color : black;
+  font-size: 48px;
+  font-weight: bold;
+  padding: 16px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
