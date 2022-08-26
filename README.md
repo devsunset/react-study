@@ -9,7 +9,7 @@
 https://reactjs.org/
 
 
-### Vue.js ###
+### React ###
 
 *Visual Stdudio Code Install
   - Excention
