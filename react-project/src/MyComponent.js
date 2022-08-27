@@ -1,4 +1,4 @@
-// Snippet -> rsc
+// Snippet -> rsc (함수형)
 import React from "react";
 import PropTypes from "prop-types";
 
@@ -28,17 +28,40 @@ MyComponent.propTypes = {
 
 export default MyComponent;
 
-// Snippet -> rcc
+// Snippet -> rcc (클래스)
 // import React, { Component } from 'react';
+// import PropTypes from "prop-types";
 
 // class MyComponent extends Component {
+// const {name , age, children } = this.propers; // 비구조 할당
+
+// Class 내부에 지정 하는 방식
+// static defaultProps = {
+//   name: "default",
+// };
+
+// static  propTypes = {
+//   name: PropTypes.string,
+//   age: PropTypes.number.isRequired,
+// };
+
 //     render() {
 //         return (
 //             <div>
-//                  Component example
+//                 Component example # name : {name} ,age : {age} ,children : {children}
 //             </div>
 //         );
 //     }
 // }
+
+// Class 외부에 지정 하는 방식
+// MyComponent.defaultProps = {
+//   name: "default",
+// };
+
+// MyComponent.propTypes = {
+//   name: PropTypes.string,
+//    age: PropTypes.number.isRequired,
+// };
 
 // export default MyComponent;
