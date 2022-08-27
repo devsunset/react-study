@@ -41,6 +41,9 @@ function App() {
       {/*  숫자는 0이어도 렌더링 됨  */}
       {number && <div>{number}</div>}
       <div>{temp || "value is undefined"}</div>
+
+      <hr></hr>
+
       <ComponentPropsExample name="React" />
       <ComponentPropsExample />
       <ComponentPropsExample>리액트</ComponentPropsExample>
