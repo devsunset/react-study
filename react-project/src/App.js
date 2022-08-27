@@ -38,7 +38,7 @@ function App() {
       <h1>hello world</h1>
       <h1>{study}</h1>
 
-      {study === "react" ? <h1>react</h1> : <h2>react x</h2>}
+      {study === "react" ? <h1>react</h1> : <h2>react</h2>}
 
       {study === "react" ? <h1>react</h1> : null}
 
