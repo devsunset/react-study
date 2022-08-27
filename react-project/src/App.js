@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import "./App.css";
 // import { Fragment }  from 'react';
-import ComponentPropsExample from "./ComponentPropsExample";
+import ComponentExample from "./ComponentExample";
 
 const study = "react";
 const number = 0;
@@ -44,11 +44,11 @@ function App() {
 
       <hr></hr>
 
-      <ComponentPropsExample name="React" />
-      <ComponentPropsExample />
-      <ComponentPropsExample>리액트</ComponentPropsExample>
+      <ComponentExample name="React" />
+      <ComponentExample />
+      <ComponentExample>리액트</ComponentExample>
       {/* 숫자를 입력하면 PropTypes string 으로 설정 했기 때문에 console 창에 에러 출력 */}
-      {/* <ComponentPropsExample name={3} /> */}
+      {/* <ComponentExample name={3} /> */}
     </div>
 
     // <Fragment >
