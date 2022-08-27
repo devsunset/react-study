@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import "./App.css";
 // import { Fragment }  from 'react';
-import MyComponent from "./MyComponent";
+import ComponentPropsExample from "./ComponentPropsExample";
 
 const study = "react";
 const number = 0;
@@ -41,11 +41,11 @@ function App() {
       {/*  숫자는 0이어도 렌더링 됨  */}
       {number && <div>{number}</div>}
       <div>{temp || "value is undefined"}</div>
-      <MyComponent name="React" />
-      <MyComponent />
-      <MyComponent>리액트</MyComponent>
+      <ComponentPropsExample name="React" />
+      <ComponentPropsExample />
+      <ComponentPropsExample>리액트</ComponentPropsExample>
       {/* 숫자를 입력하면 PropTypes string 으로 설정 했기 때문에 console 창에 에러 출력 */}
-      {/* <MyComponent name={3} /> */}
+      {/* <ComponentPropsExample name={3} /> */}
     </div>
 
     // <Fragment >
