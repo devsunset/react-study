@@ -7,6 +7,7 @@ import ComponentClassEventExample from "./ComponentClassEventExample";
 import ComponentFunctionEventExample from "./ComponentFunctionEventExample";
 import ComponentRefExample from "./ComponentRefExample";
 import ComponentIterationExample from "./ComponentIterationExample";
+import ComponentLifeCycleExample from "./ComponentLifeCycleExample";
 
 function App() {
   return (
@@ -43,6 +44,10 @@ function App() {
       <hr />
       <h2>Iteration - ComponentIterationExample</h2>
       <ComponentIterationExample />
+
+      <hr />
+      <h2>LifeCycle - ComponentLifeCycleExample</h2>
+      <ComponentLifeCycleExample />
     </div>
   );
 }
