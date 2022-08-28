@@ -10,6 +10,7 @@ https://reactjs.org/
 
 ### React
 
+
 - Visual Stdudio Code Install
 
   - Excention
@@ -37,6 +38,11 @@ https://reactjs.org/
 - React Project Create
   - yarn create react-app react-preoject
   - npm init react-app react-project
+
+--------------------------------------------------------------------------------
+
+리액트를 다루는 기술 (개정판) - 내용 정리 
+https://github.com/velopert/learning-react
 
 Learn More
 
