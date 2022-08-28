@@ -1,11 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
+  //React.StrictMode  설정시 일부 라이프사이클이 두번씩 호출 , 프로덕션 환경에서는 정상 호출됨
   <React.StrictMode>
     <App />
   </React.StrictMode>
