@@ -2,6 +2,8 @@
 import "./App.css";
 // import { Fragment }  from 'react';
 import ComponentPropsExample from "./ComponentPropsExample";
+import ComponentStateExample from "./ComponentStateExample";
+import ComponentUseStateExample from "./ComponentUseStateExample";
 
 const study = "react";
 const number = 0;
@@ -19,6 +21,17 @@ const style = {
 function App() {
   return (
     <div style={{ padding: 16 }}>
+      <h2>JSX</h2>
+      <hr />
+      <div>hello world</div>
+      <div>{study}</div>
+      {study === "react" ? <div>react O</div> : <h2>react X</h2>}
+      {study === "react" ? <div>react</div> : null}
+      {study === "react" && <div>react</div>}
+      {/*  숫자는 0이어도 렌더링 됨  */}
+      {number && <div>{number}</div>}
+      <div>{temp || "value is undefined"}</div>
+
       <div style={style}>{study}</div>
       {/* 주석 처리 */}
       <div
@@ -33,22 +46,23 @@ function App() {
         {study}
       </div>
       <div className="react">{study}</div>
-      <div>hello world</div>
-      <div>{study}</div>
-      {study === "react" ? <div>react O</div> : <h2>react X</h2>}
-      {study === "react" ? <div>react</div> : null}
-      {study === "react" && <div>react</div>}
-      {/*  숫자는 0이어도 렌더링 됨  */}
-      {number && <div>{number}</div>}
-      <div>{temp || "value is undefined"}</div>
 
-      <hr></hr>
+      <h2>Component props</h2>
+      <hr />
 
       <ComponentPropsExample name="React" />
       <ComponentPropsExample />
       <ComponentPropsExample>리액트</ComponentPropsExample>
       {/* 숫자를 입력하면 PropTypes string 으로 설정 했기 때문에 console 창에 에러 출력 */}
       {/* <ComponentPropsExample name={3} /> */}
+
+      <h2>Component state - Class Component</h2>
+      <hr />
+      <ComponentStateExample />
+
+      <h2>Component useState - function Component</h2>
+      <hr />
+      <ComponentUseStateExample />
     </div>
 
     // <Fragment >
