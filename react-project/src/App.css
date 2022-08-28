@@ -15,6 +15,13 @@
   padding: 16px;
 }
 
+.success {
+  background-color: lightgreen;
+}
+.failure {
+  background-color: lightcoral;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
