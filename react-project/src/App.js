@@ -9,6 +9,7 @@ import ComponentRefExample from "./ComponentRefExample";
 import ComponentIterationExample from "./ComponentIterationExample";
 import ComponentLifeCycleExample from "./ComponentLifeCycleExample";
 import ComponentHooksExample from "./ComponentHooksExample";
+import ComponentStyleExample from "./ComponentStyleExample";
 
 function App() {
   return (
@@ -53,6 +54,10 @@ function App() {
       <hr />
       <h2>Hooks - ComponentHooksExample.js</h2>
       <ComponentHooksExample />
+
+      <hr />
+      <h2>Style- ComponentStyleExample.js</h2>
+      <ComponentStyleExample />
     </div>
   );
 }
