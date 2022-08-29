@@ -197,6 +197,8 @@ const ComponentHooksExample = () => {
       Hooks
       <br />
       https://nikgraf.github.io/react-hooks/
+      <br />
+      https://github.com/rehooks/awesome-react-hooks
     </div>
   );
 };
