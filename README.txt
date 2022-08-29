@@ -44,6 +44,28 @@ https://reactjs.org/
 https://nikgraf.github.io/react-hooks/
 https://github.com/rehooks/awesome-react-hooks 
 
+.prettierrc
+{
+  "singleQuote": true,
+  "semi": true,
+  "useTabs": false,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "printWidth": 80
+}
+
+.jsconfig.json
+{
+  "compilerOptions": {
+    "target": "es6"
+  }
+}
+
+http://flexboxfroggy.com/#ko
+
+https://react-icons.github.io/react-icons
+
+
 --------------------------------------------------------------------------------
 
 리액트를 다루는 기술 (개정판) - 내용 정리 
