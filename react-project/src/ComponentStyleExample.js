@@ -17,7 +17,7 @@ const ComponentStyleExample = () => {
       </div>
 
       <div>
-        <span>Sass - (yarn add sass)</span>
+        <span>Sass - yarn add sass</span>
         <span>ComponentStyleExample.scss + sytels/utils.scss</span>
       </div>
       <div className="ComponentStyleExample">
@@ -29,6 +29,7 @@ const ComponentStyleExample = () => {
         <div className="box indigo" />
         <div className="box violet" />
       </div>
+      <div>sass-loader 설정 커스터 마이징 - yarn eject</div>
     </div>
   );
 };
