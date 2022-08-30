@@ -1,5 +1,7 @@
 import { createStore } from "redux";
 
+console.log("hello redux!!");
+
 // DOM 레퍼런스 만들기
 const divToggle = document.querySelector(".toggle");
 const counter = document.querySelector("h1");
