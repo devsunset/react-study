@@ -6,6 +6,7 @@ export default function usePromise(promiseCreator, deps) {
   const [resolved, setResolved] = useState(null);
   const [error, setError] = useState(null);
 
+  // useEffect에 aysnc 사용 하면 안됨 내부에서 async function 생성 해서 호출
   useEffect(() => {
     const process = async () => {
       setLoading(true);
