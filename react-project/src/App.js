@@ -63,7 +63,7 @@ function App() {
       <ComponentStyleExample />
 
       <hr />
-      <h2>First App & 성능 최적화 - todo-app </h2>
+      <h2>성능 최적화 - todo-app </h2>
 
       <hr />
       <h2>Immer - ComponentImmerExample.js</h2>
