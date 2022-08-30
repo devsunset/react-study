@@ -70,6 +70,7 @@ https://react-icons.github.io/react-icons
 
 # yarn instll
 yarn add react-router-dom
+yarn add axios
 yarn add immer
 yarn add react-virtualized
 
