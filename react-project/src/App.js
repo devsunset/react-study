@@ -12,6 +12,9 @@ import ComponentHooksExample from './ComponentHooksExample';
 import ComponentStyleExample from './ComponentStyleExample';
 import ComponentImmerExample from './ComponentImmerExample';
 import ComponentAxiosExample from './ComponentAxiosExample';
+import ComponentContextApiExample from './ComponentContextApiExample';
+import { ColorProvider } from './contexts/color';
+import SelectColors from './SelectColors';
 
 function App() {
   return (
@@ -76,6 +79,15 @@ function App() {
       <hr />
       <h2>Axios - news-app </h2>
       <ComponentAxiosExample />
+
+      <hr />
+      <h2>Context API - ComponentContextApiExample.js </h2>
+      <ColorProvider>
+        <div>
+          <SelectColors />
+          <ComponentContextApiExample />
+        </div>
+      </ColorProvider>
     </div>
   );
 }
