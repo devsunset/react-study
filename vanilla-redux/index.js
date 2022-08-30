@@ -1,6 +1,6 @@
 import { createStore } from "redux";
 
-console.log("hello redux!!");
+console.log("hello redux");
 
 // DOM 레퍼런스 만들기
 const divToggle = document.querySelector(".toggle");
@@ -77,7 +77,7 @@ divToggle.onClick = () => {
 };
 
 btnIncrease.onClick = () => {
-  store.dispatch(increase());
+  store.dispatch(increase(1));
 };
 
 btnDecrease.onClick = () => {
