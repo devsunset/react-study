@@ -44,6 +44,8 @@ https://reactjs.org/
 https://nikgraf.github.io/react-hooks/
 https://github.com/rehooks/awesome-react-hooks 
 
+
+# setting
 .prettierrc
 {
   "singleQuote": true,
@@ -61,9 +63,16 @@ https://github.com/rehooks/awesome-react-hooks
   }
 }
 
+# flex
 http://flexboxfroggy.com/#ko
 
 https://react-icons.github.io/react-icons
+
+# yarn instll
+yarn add react-virtualized
+yarn add react-icons
+yarn add classnames
+yarn add styled-components
 
 
 --------------------------------------------------------------------------------
