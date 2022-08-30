@@ -88,6 +88,9 @@ function App() {
           <ComponentContextApiExample />
         </div>
       </ColorProvider>
+
+      <hr />
+      <h2>Redux Library- vanilla-redux </h2>
     </div>
   );
 }
