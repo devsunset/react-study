@@ -77,7 +77,7 @@ function App() {
       <h2>Router - router-app </h2>
 
       <hr />
-      <h2>Axios - news-app </h2>
+      <h2>Axios - news-app & ComponentAxiosExample.js</h2>
       <ComponentAxiosExample />
 
       <hr />
@@ -90,7 +90,7 @@ function App() {
       </ColorProvider>
 
       <hr />
-      <h2>Redux Library- vanilla-redux </h2>
+      <h2>Redux Library- vanilla-redux & redux-app</h2>
     </div>
   );
 }

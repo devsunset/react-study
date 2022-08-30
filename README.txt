@@ -72,6 +72,8 @@ https://react-icons.github.io/react-icons
 yarn add react-router-dom
 yarn add axios
 yarn add redux
+yarn add react-redux
+
 yarn add immer
 yarn add react-virtualized
 yarn global add parcel-bundler
