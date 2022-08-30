@@ -16,6 +16,8 @@ function App() {
   return (
     <div style={{ padding: 16 }}>
       <hr />
+      <h1>React Example</h1>
+      <hr />
       <h2>JSX - ComponentJSXExample.js</h2>
       <ComponentJSXExample />
       <hr />
@@ -61,8 +63,14 @@ function App() {
       <ComponentStyleExample />
 
       <hr />
+      <h2>First App & 성능 최적화 - todo-app </h2>
+
+      <hr />
       <h2>Immer - ComponentImmerExample.js</h2>
       <ComponentImmerExample />
+
+      <hr />
+      <h2>Router - router-app </h2>
     </div>
   );
 }

@@ -30,6 +30,11 @@ const ComponentImmerExample = () => {
   const onChange = useCallback((e) => {
     const { name, value } = e.target;
     setForm(
+      // produce(form, draft => {
+      //   draft[name] = value;
+      // })
+
+      // 위와 같은 내용을 아래 처럼 사용
       produce((draft) => {
         draft[name] = value;
       })
