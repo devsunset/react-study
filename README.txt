@@ -69,7 +69,9 @@ http://flexboxfroggy.com/#ko
 https://react-icons.github.io/react-icons
 
 # yarn instll
+yarn add immer
 yarn add react-virtualized
+
 yarn add react-icons
 yarn add classnames
 yarn add styled-components
