@@ -1,16 +1,17 @@
-import "./App.css";
-import ComponentJSXExample from "./ComponentJSXExample";
-import ComponentPropsExample from "./ComponentPropsExample";
-import ComponentStateExample from "./ComponentStateExample";
-import ComponentUseStateExample from "./ComponentUseStateExample";
-import ComponentClassEventExample from "./ComponentClassEventExample";
-import ComponentFunctionEventExample from "./ComponentFunctionEventExample";
-import ComponentRefExample from "./ComponentRefExample";
-import ComponentIterationExample from "./ComponentIterationExample";
-import ComponentLifeCycleExample from "./ComponentLifeCycleExample";
-import ComponentHooksExample from "./ComponentHooksExample";
-import ComponentStyleExample from "./ComponentStyleExample";
-import ComponentImmerExample from "./ComponentImmerExample";
+import './App.css';
+import ComponentJSXExample from './ComponentJSXExample';
+import ComponentPropsExample from './ComponentPropsExample';
+import ComponentStateExample from './ComponentStateExample';
+import ComponentUseStateExample from './ComponentUseStateExample';
+import ComponentClassEventExample from './ComponentClassEventExample';
+import ComponentFunctionEventExample from './ComponentFunctionEventExample';
+import ComponentRefExample from './ComponentRefExample';
+import ComponentIterationExample from './ComponentIterationExample';
+import ComponentLifeCycleExample from './ComponentLifeCycleExample';
+import ComponentHooksExample from './ComponentHooksExample';
+import ComponentStyleExample from './ComponentStyleExample';
+import ComponentImmerExample from './ComponentImmerExample';
+import ComponentAxiosExample from './ComponentAxiosExample';
 
 function App() {
   return (
@@ -74,6 +75,7 @@ function App() {
 
       <hr />
       <h2>Axios - news-app </h2>
+      <ComponentAxiosExample />
     </div>
   );
 }
