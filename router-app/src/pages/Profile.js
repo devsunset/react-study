@@ -1,16 +1,17 @@
 import { useParams } from 'react-router-dom';
 
 const data = {
-  velopert: {
-    name: '김민준',
-    description: '리액트를 좋아하는 개발자',
+  test1: {
+    name: 'test1',
+    description: 'test1 desc.',
   },
-  gildong: {
-    name: '홍길동',
-    description: '고전 소설 홍길동전의 주인공',
+  test2: {
+    name: 'test2',
+    description: 'test2 desc.',
   },
 };
 const Profile = () => {
+  // url 파라미터 조회  hook useParams
   const params = useParams();
   const profile = data[params.username];
 

@@ -1,9 +1,8 @@
-import { NavLink, Outlet } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Articles = () => {
   return (
     <div>
-      <Outlet />
       <ul>
         <ArticleItem id={1} />
         <ArticleItem id={2} />
@@ -20,6 +19,7 @@ const ArticleItem = ({ id }) => {
   };
   return (
     <li>
+      {/* NavLink 컴포넌트는 링크에서 사용하는 경로가 현재 라우트의 경로와 일치 하는 경우 특정 스타일 또는 CSS 클래스를 적용하는 컴포넌트 */}
       <NavLink
         to={`/articles/${id}`}
         style={({ isActive }) => (isActive ? activeStyle : undefined)}
