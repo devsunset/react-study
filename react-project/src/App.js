@@ -10,6 +10,7 @@ import ComponentIterationExample from "./ComponentIterationExample";
 import ComponentLifeCycleExample from "./ComponentLifeCycleExample";
 import ComponentHooksExample from "./ComponentHooksExample";
 import ComponentStyleExample from "./ComponentStyleExample";
+import ComponentImmerExample from "./ComponentImmerExample";
 
 function App() {
   return (
@@ -56,8 +57,12 @@ function App() {
       <ComponentHooksExample />
 
       <hr />
-      <h2>Style- ComponentStyleExample.js</h2>
+      <h2>Style - ComponentStyleExample.js</h2>
       <ComponentStyleExample />
+
+      <hr />
+      <h2>Immer - ComponentImmerExample.js</h2>
+      <ComponentImmerExample />
     </div>
   );
 }
