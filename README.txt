@@ -75,6 +75,9 @@ yarn add redux
 yarn add react-redux
 yarn add redux-devtools-etension
 yarn add redux-actions
+yarn add redux-logger
+yarn add redux-thunk
+yarn add redux-saga
 
 yarn add immer
 yarn add react-virtualized
