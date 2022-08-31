@@ -79,16 +79,19 @@ yarn add redux-logger
 yarn add redux-thunk
 yarn add redux-saga
 yarn add @loadbale/component
-
 yarn add immer
 yarn add react-virtualized
 yarn global add parcel-bundler
-
 
 yarn add react-icons
 yarn add classnames
 yarn add styled-components
 
+yarn init -y
+yarn add koa
+yarn add --dev eslint
+yarn run eslint --init
+yarn add eslint-config-prettier 
 
 --------------------------------------------------------------------------------
 
