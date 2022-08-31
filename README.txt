@@ -73,6 +73,8 @@ yarn add react-router-dom
 yarn add axios
 yarn add redux
 yarn add react-redux
+yarn add redux-devtools-etension
+yarn add redux-actions
 
 yarn add immer
 yarn add react-virtualized
