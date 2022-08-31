@@ -101,9 +101,14 @@ function App() {
       <div>https://loadable-components.com/docs/getting-started/</div>
 
       <hr />
-      <h2>SSR - example/ssr-app</h2>
-      <div>Next.js & Remix</div>
-      <div>https://velog.io/@velopert/learn-remix</div>
+      <h2>SSR - example/ssr-app & next.js & remix</h2>
+      <div>Next.js - https://nextjs.org/</div>
+      <div>Remix - https://remix.run/</div>
+      <div>
+        Next.js & Remix -
+        https://junghan92.medium.com/remix-vs-next-js-d6428606d66e
+      </div>
+      <div>Razzle - https://razzlejs.org/</div>
     </div>
   );
 }
