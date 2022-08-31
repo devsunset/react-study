@@ -67,17 +67,17 @@ function App() {
       <ComponentStyleExample />
 
       <hr />
-      <h2>성능 최적화 - todo-app </h2>
+      <h2>성능 최적화 - example/todo-app </h2>
 
       <hr />
       <h2>Immer - ComponentImmerExample.js</h2>
       <ComponentImmerExample />
 
       <hr />
-      <h2>Router - router-app </h2>
+      <h2>Router - example/router-app </h2>
 
       <hr />
-      <h2>Axios - news-app & ComponentAxiosExample.js</h2>
+      <h2>Axios - example/news-app & ComponentAxiosExample.js</h2>
       <ComponentAxiosExample />
 
       <hr />
@@ -90,7 +90,7 @@ function App() {
       </ColorProvider>
 
       <hr />
-      <h2>Redux Library- vanilla-redux & redux-app</h2>
+      <h2>Redux Library - example/vanilla-redux & example/redux-app</h2>
     </div>
   );
 }
