@@ -90,7 +90,10 @@ function App() {
       </ColorProvider>
 
       <hr />
-      <h2>Redux Library - example/vanilla-redux & example/redux-app</h2>
+      <h2>Redux - example/vanilla-redux & example/redux-app</h2>
+
+      <hr />
+      <h2>Redux middleware - example/redux-middleware-app</h2>
     </div>
   );
 }
