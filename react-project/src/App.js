@@ -67,7 +67,7 @@ function App() {
       <ComponentStyleExample />
 
       <hr />
-      <h2>성능 최적화 - example/todo-app </h2>
+      <h2>Performance- example/todo-app </h2>
 
       <hr />
       <h2>Immer - ComponentImmerExample.js</h2>
@@ -94,6 +94,9 @@ function App() {
 
       <hr />
       <h2>Redux middleware - example/redux-middleware-app</h2>
+
+      <hr />
+      <h2>Code Splitting - example/code-splitting-app</h2>
     </div>
   );
 }
