@@ -78,6 +78,7 @@ yarn add redux-actions
 yarn add redux-logger
 yarn add redux-thunk
 yarn add redux-saga
+yarn add @loadbale/component
 
 yarn add immer
 yarn add react-virtualized

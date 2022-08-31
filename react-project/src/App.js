@@ -97,6 +97,8 @@ function App() {
 
       <hr />
       <h2>Code Splitting - example/code-splitting-app</h2>
+      <div>React.lazy Suspense ( SSR X ) - Loadable Components (SSR O)</div>
+      <div>https://loadable-components.com/docs/getting-started/</div>
     </div>
   );
 }
