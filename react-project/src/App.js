@@ -99,6 +99,11 @@ function App() {
       <h2>Code Splitting - example/code-splitting-app</h2>
       <div>React.lazy Suspense ( SSR X ) - Loadable Components (SSR O)</div>
       <div>https://loadable-components.com/docs/getting-started/</div>
+
+      <hr />
+      <h2>SSR - example/ssr-app</h2>
+      <div>Next.js & Remix</div>
+      <div>https://velog.io/@velopert/learn-remix</div>
     </div>
   );
 }
