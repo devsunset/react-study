@@ -111,7 +111,10 @@ function App() {
       <div>Razzle - https://razzlejs.org/</div>
 
       <hr />
-      <h2>koa (backend) - example/koa</h2>
+      <h2>koa (node sever framework) - example/koa</h2>
+
+      <hr />
+      <h2>mongo (mongodb - mongoose) - example/mongo</h2>
     </div>
   );
 }
