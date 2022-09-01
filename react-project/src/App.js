@@ -115,6 +115,9 @@ function App() {
 
       <hr />
       <h2>mongo (mongodb - mongoose) - example/mongo</h2>
+
+      <hr />
+      <h2>jwt - example/jwt</h2>
     </div>
   );
 }
