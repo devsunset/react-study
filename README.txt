@@ -100,8 +100,17 @@ yarn add koa-bodyparser
 
 - mogodb
 yarn add mongoose dotenv
-
 yarn add esm
+yarn add joi
+
+
+valid check 
+Joi(https://github.com/hapijs/joi)
+
+mongodb gui client - MongoDB Compass
+https://www.mongodb.com/products/compass
+https://www.mongodb.com/try/download/compass
+
 
 --------------------------------------------------------------------------------
 
