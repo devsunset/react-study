@@ -10,6 +10,10 @@ https://reactjs.org/
 
 ### React
 
+리액트를 다루는 기술 (개정판) - 내용 정리 
+https://github.com/velopert/learning-react
+
+참고소스 learning-react
 
 - Visual Stdudio Code Install
 
@@ -39,11 +43,9 @@ https://reactjs.org/
   - yarn create react-app react-preoject
   - npm init react-app react-project
 
-
 - React Hooks Reference
 https://nikgraf.github.io/react-hooks/
 https://github.com/rehooks/awesome-react-hooks 
-
 
 # setting
 .prettierrc
@@ -63,13 +65,7 @@ https://github.com/rehooks/awesome-react-hooks
   }
 }
 
-# flex
-http://flexboxfroggy.com/#ko
-
-https://react-icons.github.io/react-icons
-
 # yarn instll
-- react
 yarn add react-router-dom
 yarn add axios
 yarn add redux
@@ -83,12 +79,9 @@ yarn add @loadbale/component
 yarn add immer
 yarn add react-virtualized
 yarn global add parcel-bundler
-
 yarn add react-icons
 yarn add classnames
 yarn add styled-components
-
-- node.js koa
 yarn init -y
 yarn add koa
 yarn add --dev eslint
@@ -97,27 +90,19 @@ yarn add eslint-config-prettier
 yarn add --dev nodemon
 yarn add koa-router
 yarn add koa-bodyparser
-
-- mogodb
 yarn add mongoose dotenv
 yarn add esm
 yarn add joi
+yarn add bcrpt
 
+# flex
+http://flexboxfroggy.com/#ko
 
-valid check 
-Joi(https://github.com/hapijs/joi)
-
-mongodb gui client - MongoDB Compass
+# mongodb gui client - MongoDB Compass
 https://www.mongodb.com/products/compass
 https://www.mongodb.com/try/download/compass
 
-
 --------------------------------------------------------------------------------
-
-리액트를 다루는 기술 (개정판) - 내용 정리 
-https://github.com/velopert/learning-react
-
-참고소스 learning-react
 
 ### Learn More ###
 
