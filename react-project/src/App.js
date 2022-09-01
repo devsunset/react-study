@@ -118,6 +118,9 @@ function App() {
 
       <hr />
       <h2>jwt - example/jwt</h2>
+
+      <hr />
+      <h2>mini project blog - example/bolg-backend , blog-frontend</h2>
     </div>
   );
 }
