@@ -94,6 +94,7 @@ yarn add mongoose dotenv
 yarn add esm
 yarn add joi
 yarn add bcrpt
+yarn add jsonwebtoken
 
 # flex
 http://flexboxfroggy.com/#ko
