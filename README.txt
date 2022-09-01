@@ -69,6 +69,7 @@ http://flexboxfroggy.com/#ko
 https://react-icons.github.io/react-icons
 
 # yarn instll
+- react
 yarn add react-router-dom
 yarn add axios
 yarn add redux
@@ -87,11 +88,13 @@ yarn add react-icons
 yarn add classnames
 yarn add styled-components
 
+- node.js koa
 yarn init -y
 yarn add koa
 yarn add --dev eslint
 yarn run eslint --init
 yarn add eslint-config-prettier 
+yarn add --dev nodemon
 
 --------------------------------------------------------------------------------
 
