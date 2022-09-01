@@ -101,6 +101,8 @@ yarn add koa-bodyparser
 - mogodb
 yarn add mongoose dotenv
 
+yarn add esm
+
 --------------------------------------------------------------------------------
 
 리액트를 다루는 기술 (개정판) - 내용 정리 
