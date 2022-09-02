@@ -97,6 +97,9 @@ yarn add esm
 yarn add joi
 yarn add bcrpt
 yarn add jsonwebtoken
+yarn add quill
+yarn add react-helmet-async
+yarn add koa-static
 
 # flex
 http://flexboxfroggy.com/#ko
